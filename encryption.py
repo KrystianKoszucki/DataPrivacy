@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 
 key= ''
-with open('SekretnyKlucz1.key', 'rb') as file:
+with open('SecretKey.key', 'rb') as file:
     key= file.read()
 
 data= ''
@@ -12,5 +12,5 @@ f= Fernet(key)
 
 encrypted_data= f.encrypt(data)
 
-with open('zaszyfrowane_dane.py', 'wb') as file:
+with open('encyprted_data.py', 'wb') as file:
     file.write(encrypted_data)
