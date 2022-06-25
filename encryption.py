@@ -12,5 +12,5 @@ f= Fernet(key)
 
 encrypted_data= f.encrypt(data)
 
-with open('encyprted_data.py', 'wb') as file:
+with open('encrypted_data.py', 'wb') as file:
     file.write(encrypted_data)
