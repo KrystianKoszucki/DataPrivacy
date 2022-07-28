@@ -8,4 +8,4 @@ Those scripts shows how to strengthen privacy. There are used two methods: pertu
 
 ## Used Technologies
 1. Programming language: Python
-2. Used libraries: numpy, sklearn.datasets, sklearn.model_selection, sklearn.neural_network, matplotlib.pyplot, pandas
+2. Used libraries: numpy, sklearn.datasets, sklearn.model_selection, sklearn.neural_network, matplotlib.pyplot, pandas, cryptography.fernet
